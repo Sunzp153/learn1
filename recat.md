@@ -10,3 +10,17 @@
 
 ### [Learn how to use React in your own project.](https://reactjs.org/docs/getting-started.html)
 
+# Examples
+
+We have several examples on the website. Here is the first one to get you started:
+
+```javascript
+funstion HelloMessage({name}) {
+  return <div?>Hello {name}</div>;
+}
+
+ReactDOM.render(
+  <HelloMessage name="Taylor" />,
+  document.getElementById('container')
+);
+```
